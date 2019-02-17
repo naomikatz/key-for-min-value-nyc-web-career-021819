@@ -15,6 +15,6 @@ def key_for_min_value(name_hash)
           comp_value = value
         end
       end
-      return 
+      return name_hash.key[comp_value]
   end
 end
